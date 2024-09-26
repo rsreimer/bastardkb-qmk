@@ -34,3 +34,9 @@
 // - `CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_THRESHOLD`
 // #define CHARYBDIS_AUTO_POINTER_LAYER_TRIGGER_ENABLE
 #endif // POINTING_DEVICE_ENABLE
+
+/* Tap-Hold Configuration Options */
+#define TAPPING_TERM 200  // https://docs.qmk.fm/tap_hold#tapping-term
+#define PERMISSIVE_HOLD   // https://docs.qmk.fm/tap_hold#permissive-hold
+#define QUICK_TAP_TERM 0  // https://docs.qmk.fm/tap_hold#quick-tap-term
+
